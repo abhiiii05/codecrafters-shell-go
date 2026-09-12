@@ -23,7 +23,7 @@ func main() {
 
 		if strings.HasPrefix(command, "echo"){
 			result := strings.TrimPrefix(command,"echo")
-			fmt.Print(result)
+			fmt.Println(result)
 		
 		}
 		
