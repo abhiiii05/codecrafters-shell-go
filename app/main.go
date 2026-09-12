@@ -18,6 +18,10 @@ func main() {
 		command:=strings.TrimSpace(input)
 		
 		fmt.Println(command+": command not found")
+
+		if command == "exit"{
+			break
+		}
 	}
 	
 	
