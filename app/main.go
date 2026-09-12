@@ -8,5 +8,10 @@ import (
 var _ = fmt.Print
 
 func main() {
+	var command string
 	fmt.Print("$ ")
+	fmt.Scan(&command)
+	fmt.Print(command,": command not found")
+	
+	
 }
