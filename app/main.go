@@ -22,9 +22,11 @@ func main() {
 		}else if strings.HasPrefix(command, "echo"){
 			result := strings.TrimPrefix(command,"echo")
 			fmt.Println(result)
+		}else{
+			fmt.Println(command+": command not found")
 		}
 		
-		fmt.Println(command+": command not found")
+		
 
 		
 	}
