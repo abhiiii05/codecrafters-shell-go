@@ -24,7 +24,7 @@ func main() {
 			result := strings.TrimSpace(prefix)
 			fmt.Println(result)
 		}else if strings.HasPrefix(command,"type"){
-			prefix := strings.TrimPrefix(command," type")
+			prefix := strings.TrimPrefix(command,"type")
 			result := strings.TrimSpace(prefix)
 			fmt.Println(result)
 			if (prefix == "echo" || prefix == "exit" || prefix== "type"){
