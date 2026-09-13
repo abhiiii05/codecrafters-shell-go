@@ -25,8 +25,8 @@ func main() {
 			fmt.Println(result)
 		}else if strings.HasPrefix(command,"type"){
 			prefix := strings.TrimPrefix(command," type")
-			fmt.Println("here")
-			if (prefix == "echo" || prefix =="exit" || prefix=="type"){
+			fmt.Println(prefix)
+			if (prefix == "echo" || prefix == "exit" || prefix== "type"){
 				fmt.Println(prefix + "is a shell builtin")
 			}
 		}else{
